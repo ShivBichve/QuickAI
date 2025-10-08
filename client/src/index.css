@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* to set app primar color */
+@theme {
+    --color-primary: #5044E5;
+}
+
+/* to reset tailwind css */
+.reset-tw, .reset-tw *{
+    all: revert !important
+}
+
+.cl-drawerRoot {
+    z-index: 10;
+}
