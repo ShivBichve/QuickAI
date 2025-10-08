@@ -11,7 +11,7 @@ const app = express();
 await connectCloudinary();
 
 app.use(cors({
-    origin: "https://quick-ai-brown-gamma.vercel.app/",
+    origin: "https://quick-ai-brown-gamma.vercel.app",
     credentials: true
 }));
 app.use(express.json());
